@@ -1,0 +1,40 @@
+// // Preguntas:
+
+
+// 1. ¿Cuántas clases tiene el proyecto?
+// 3 clases
+
+// - ¿En cuál clase se define el programa principal
+// Zoologico
+
+// - ¿Cuántos objetos de la clase Animal se crean en la clase
+// principal?
+// 2 Que son: Cebra(animal 1) y Caballo(animal 2)
+
+// - ¿Cuántos y cuáles son los atributos de la clase Animal?
+// Los siguientes: nombre,genero;peso;pareja.
+    
+// - ¿Cuáles atributos de la clase Animal no son primitivos?
+// String nombre;
+// String genero;
+// Animal pareja
+
+// - ¿Qué pasa si eliminamos la línea 17 de la clase Zoologico?
+// La aplicación avisa que "Aún no puedes tener hijos" porque el animal 2 no se encontraría con el animal 1 para tener familia (hijo: cebrallo)
+
+// - ¿Cuántos métodos tiene la clase Familia?
+// Tiene 3: 
+// constructor (familia)
+// imprimirFamilia
+// tenerHijo
+
+// - ¿Cuántos parámetros tiene el método tenerHijo() de la clase
+// Familia?
+// 1: nombre de tipo String
+
+// - ¿Cuántos atributos inicializa el constructor de la clase Familia?
+// 3: 
+// papa,mama.
+
+// - ¿Qué tipo de retorno tiene el método tenerHijo()?
+// void El método tenerHijo(String nombre) tiene un tipo de retorno void, lo que significa que no devuelve ningún valor. En su implementación, agrega un nuevo hijo a la familia si se cumplen ciertas condiciones, pero no retorna ningún valor en sí mismo.
